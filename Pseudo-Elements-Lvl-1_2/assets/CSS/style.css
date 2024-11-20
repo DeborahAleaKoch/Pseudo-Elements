@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(../Fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    padding: 3px 5px;
+    font-family: "Montserrat-Light";
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h3::first-letter {
+    color: #a020f0;
+    font-size: 5rem;
+}
+
+h3:hover::first-letter {
+    color: #483d8b;
+    font-size: 7rem;
+}
+
+
+ul {
+    margin: 30px;
+}
+
+section {
+    margin: 20px;
+    line-height: 25px;
+    font-size: 1.5rem;
+}
+
+
+.first-letter-blue::first-letter {
+    color: #00bfff;
+    text-decoration: overline;
+    font-size: 2rem;
+}
+
+.first-letter-red::first-letter {
+    color: #c71585;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.first-letter-green::first-letter {
+    color: #32cd32;
+    font-size: 2rem;
+    text-decoration: line-through;
+}
+
+.first-letter-green {
+    text-decoration: line-through;
+}
+
+.color-chart {
+    color: #a020f0;
+    color: #00bfff;
+    color: #32cd32;
+    color: #c71585;
+    color: #00ced1;
+    color: #483d8b;
+    color: #2e8b57;
+}
+
+p {
+    margin-bottom: 15px;
+    
+}
+
+p::first-line {
+    color: #2e8b57;
+}
+
+p::first-letter {
+    font-size: 3rem;
+    color: #c71585;
+}
+
+p:hover::first-letter {
+    color: #483d8b;
+}
+
+p:hover::first-line {
+    color: #32cd32;
+}
+
+.first-p-big {
+    text-indent: 2.5em;
+    /* margin-bottom: 10px; */
+}
+
+.first-p-big::first-line {
+    font-size: 2rem;
+}
+
+.thicker-text {
+    font-size: 2rem;
+}
+
+p:first-of-type::first-line {
+    color: black;
+}
+
+p:first-of-type::first-letter {
+    color: black;
+}

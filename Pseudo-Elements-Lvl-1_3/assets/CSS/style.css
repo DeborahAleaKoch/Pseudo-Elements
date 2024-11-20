@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+ /*  Abstand um die Section */
+section {
+    padding: 20px;
+}
+/* der erste Buchstabe der h1 Überschrift bekommt Größe und Farbe */
+h1::first-letter {
+    font-size: 3em;
+    color: #00796B;
+}
+/*  der erste Buchstabe der h1 wird beim darüber gleiten mit der Maus anders farbig */
+h1:hover::first-letter {
+    color: #4FC3F7;
+}
+
+ul {
+    padding: 20px;
+    font-size: 2em;
+    list-style-type: none;
+    line-height: 20px;
+}
+
+.finish::before {
+    content: url(../img/check.png);
+}
+
+.finish {
+    text-decoration: line-through;
+}
+
+.gym-icon::after {
+    content: url(../img/gym.png);
+}
+
+.bill-icon::after {
+    content: url(../img/bill.png);
+}
+
+.doing-bg {
+    margin-right: 70%;
+    background-color: cornflowerblue;
+}
+
+.doing-bg::before {
+    content: url(../img/doing.png);  
+}
+
+.meet-icon::after {
+    content: url(../img/dance.png);
+}
+
+.egg-icon::after {
+    content: url(../img/eat.png);
+}
+
+.go::before {
+    content: url(../img/no.png);
+}
+
+.go {
+    text-decoration: underline;
+}
+
+.book-icon::after {
+    content: url(../img/book.png);
+}
+
+.office-icon::after {
+    content: url(../img/organize.png);
+}
+
+
+
+
